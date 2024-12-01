@@ -2,7 +2,7 @@
   #OuterContainer{   height: 90%; }
 
   
-    header{  height: 8vh; width:40vw; background: red;}
+    header{  height: 8vh; width:40vw;}
     #menu{  width:90vw; top: 8vh; background: #01010175; }
     #menu ul li a{ font-size: medium; }
 
