@@ -1,5 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
-     
+    #OuterContainer{   height: 90vh; }
+
+    #mainContainer{  height:90vh; } 
     header{  height: 8vh;}
     #menu{  width: 60vw; }
     #menu ul li a{   font-size: medium; }
