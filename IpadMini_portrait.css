@@ -1,0 +1,98 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)  {
+     
+    header{  height: 8vh; width:40vw;}
+    #menu{  width:90vw; top: 8vh; background: #01010175; }
+    #menu ul li a{ font-size: medium; }
+
+    #heroSection{ width: 60%; top: 65%; }
+    #heroSection div{ left: 75%;  top:16%;  height:50%; }
+    
+    #about{  flex-direction: column; }
+    #about_image{  height:30%;  width:100%; }
+    #about_Desc{   width: 90%;  height: 40%;  text-align: center;}
+    #about_image{
+      background-size: auto 100%;
+    }
+
+    #skills{
+     align-items: end;
+    }
+    #skill_container{
+        width: 96%;
+        height: 85%;
+        background: url(./images/skillImage.png) no-repeat 5% center/auto 30%;
+        flex-direction:column;
+        align-items: center;
+        gap: 1%;
+        
+         
+    }
+
+    #skill_desc{ width: 70%; text-align: center;}
+    #skill_desc h1{ font-size: 1.2em;}
+    #skill_desc b{  font-size: 1em; }
+    #skill_graphics{  flex: 5; width: 100%;}
+    #skill_graphics section{  height: 25%; }
+
+    #skill_graphics b{margin-left: 40%;}
+
+    #dev_skills div{  width:80px;  height:80px;  }
+
+    #dev_skills div::before{width: 20%; height: 20%; }
+    
+    #services{  align-items: end;  }
+
+    
+    #ServCont{ width: 95%; height: 80%;  }
+    
+    #MyServices{flex-wrap: wrap; height: 65%;  align-items:center;  }
+
+    #MyServices>div{ min-width: 25%;  max-width: 25%; height: 45%;}
+
+    #MyServices>div input{ opacity: 1;}
+
+    #MyServices>div>div{margin-top:5%;}
+
+
+
+    #Certificate>section{ width:98%; height:60%;}
+
+    #Certificate>section>section{   width: 100%;   height: 65%;  }
+
+    #Certificate>section>section>article{
+      border: 3px solid rgb(0, 52, 81);
+    }
+    
+    #Project>section{  height: 85%;}
+    
+    #Project>section>section{  
+      width: 100%;  height:70%;  
+      justify-content: space-evenly; 
+      flex-wrap: wrap;
+    }
+    #Project>section>section>article{width: 30%; margin:5px;}
+
+    #contact>section>:nth-child(1){  width: 60%; }
+    
+    #contact>section>:nth-child(1)>h1{
+       font-size: 2em;
+    }
+
+    
+    #contact>section>:nth-child(2){
+      width: 100%;
+      height: 100%;
+      clip-path: polygon( 60% 0%,100% 0%,100% 100%, 0% 100%);
+  }
+
+   #name{
+    margin-top: 40%;
+   }
+
+  
+    #contact>section{ width: 90%; height:60%;}
+
+    
+
+    #contact>section>:nth-child(2)>input,#contact>section>:nth-child(2)>textarea { width: 50%; }
+}

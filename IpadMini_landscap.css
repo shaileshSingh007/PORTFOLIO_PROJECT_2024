@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+     
+    header{  height: 8vh;}
+    #menu{  width: 60vw; }
+    #menu ul li a{   font-size: medium; }
+
+    #heroSection{ width: 50%; top: 65%;}
+    #heroSection div{ left: 75%;  top:16%;  height:50%; }
+    
+    #about_image{  height: 60%;  width:40%;   }
+    #about_Desc{   width: 55%;  height: 50%;  color: #9c9b9b;}
+
+    #skill_container{
+        width: 95%;
+        background: url(./images/skillImage.png) no-repeat 0% bottom/auto 80%;
+        flex-direction:column;
+        align-items: end;
+        gap: 1%;
+         
+    }
+
+    #skill_desc{ width: 100%;}
+    #skill_desc h1{ font-size: 1.2em;}
+    #skill_desc b{  font-size: 1em; }
+    #skill_graphics{  flex: 5; width: 80%;}
+    #skill_graphics section{  height: 25%; }
+
+    #skill_graphics b{margin-left: 15%;}
+
+    #dev_skills div{  width:80px;  height:80px;  }
+
+    #dev_skills div::before{width: 20%; height: 20%; }
+       
+    #ServCont{ width: 90%; }
+
+    #MyServices>div{ min-width: 18%;  max-width: 18%;}
+
+    #MyServices>div input{ opacity: 1;}
+
+    #MyServices>div>div{margin-top:5%;}
+
+    #Certificate>section{   width: 90%;  }
+
+    #Certificate>section>section{   width: 100%;   height: 65%;  }
+    
+    #Project>section{  height: 90%;  }
+    
+    #Project>section>section{  width: 100%;  height: 85%;   justify-content: space-evenly; flex-wrap: wrap; gap: 10px; }
+    #Project>section>section>article{   width: 25%;}
+
+    #contact>section{  width: 90%; height:50%;   }
+
+    #contact>section>:nth-child(2)>input,#contact>section>:nth-child(2)>textarea { width: 50%; }
+}

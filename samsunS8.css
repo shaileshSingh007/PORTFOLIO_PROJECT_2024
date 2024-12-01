@@ -1,0 +1,181 @@
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+   
+ 
+
+  header{  height: 8vh; width:100vw; } 
+  #menu{ width:90vw; top: 8vh; }
+  #menu ul{ flex-wrap: wrap;}
+  #menu ul li{  width:25%; }
+  #menu ul li a{ font-size: medium;}
+
+  #heroSection{ width: 80%; top: 50%;}
+  #heroSection b{
+    font-family: 'sakana';  
+    font-size: 1.5em;
+}
+
+.socialIcons{
+  height:10%;
+  flex-wrap: wrap;
+  bottom: 5%;
+}
+
+
+
+  #heroSection div{ left: 35%;  top:50%; height:50%;}
+  #about_image h1{
+    font-size: 2em;
+  }
+  
+  #about{ flex-direction: column; }
+  #about_image{  height:30%;  width:100%; }
+  #about_Desc{ width: 90%;  height: 40%;  text-align: center;}
+  #about_Desc>b{
+    font-size: 2em;
+  }
+  #about_image{
+    background-size: auto 100%;
+  }
+
+  
+
+  #skills{
+   align-items: end;
+  }
+
+  #skill_container{
+      width: 96%;
+      height: 85%;
+      background: url(./images/skillImage.png) no-repeat 5% center/auto 30%;
+      flex-direction:column;
+      align-items: center;
+      gap: 1%;
+  }
+
+  #skill_desc{ width: 90%; text-align: center;}
+  #skill_desc h1{ font-size: 1em; margin: 3%; color: rgb(186, 186, 186);}
+  #skill_desc b{  font-size: 1em;}
+  #skill_graphics{  flex: 5; width: 100%;}
+  #skill_graphics section{height: 25%; margin-top: 10px; }
+
+  #skill_graphics b{margin-left: 40%;}
+  #dev_skills{flex-wrap: nowrap; overflow-x: scroll; 
+    mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+   -webkit-mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+  }
+#Gra_skills{ align-items: end; padding: 5px;  box-sizing: border-box; }
+  #Gra_skills div{   width: 50%; } 
+
+  #Gra_skills div span{
+    margin-left: -50%;
+  }
+  #dev_skills div{ min-width:60px;  height:60px;  }
+
+  #dev_skills div::before{width: 20%; height: 20%; }
+  
+  #MS_skills{
+    
+    flex-wrap: nowrap; overflow-y: scroll; flex-direction: column;
+    mask: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+    -webkit-mask: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+  
+  }
+
+  #MS_skills div{
+     min-width: 35%;
+     min-height: 20%;
+  }
+
+  #services{  align-items: end; }
+
+  #ServCont{ width: 95%; height: 80%;  }
+  
+  #MyServices{
+    flex-wrap: nowrap; 
+    mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+    -webkit-mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+  
+    height: 65%;  align-items:center; justify-content: space-evenly; border: 1px solid wheat;  }
+
+  #MyServices>div{ min-width: 60%;  max-width: 60%; height:60%;}
+
+  #MyServices>div>div{margin-top:5%;}
+
+
+   
+  #Certificate>section{ width:98%; height:65%; }
+  #Certificate>section>h1{
+     margin: 5%;
+  }
+
+  #Certificate>section>section{ width: 100%;   height: 70%; 
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: scroll;
+    mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+    -webkit-mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+  
+  }
+
+  #Certificate>section>section>article{
+    border: 3px solid rgb(0, 52, 81);
+    min-width: 70%; max-width: 70%;
+  }
+
+  #Certificate>section>section>article>h2{
+     font-size: 1.2em; margin: 5px;
+  }
+
+  #Certificate>section>section>article>p{
+    font-size: 1em; margin: 0;
+ }
+  
+  #Project>section{  height: 85%;}
+  
+  #Project>section>section{  
+    width: 100%;  height:85%;  
+    justify-content: space-evenly; 
+    flex-direction: column;
+    overflow-y: scroll; overflow-x: hidden;
+    flex-wrap: nowrap;
+    mask: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+    -webkit-mask: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%,rgba(0, 0, 0, 1) 80%,rgba(0, 0, 0, 0) 100%);
+  
+  }
+  #Project>section>section>article{
+    min-width: 60%; min-height:90%; margin:5px;
+    
+  }
+
+  #contact{align-items: end;}
+  #contact>section{ width: 90%; height:80%;}
+
+  
+ 
+  #contact>section>:nth-child(1){ 
+    width: 100%;
+    height: 30%;
+  }
+  
+  #contact>section>:nth-child(1)>h1{
+     font-size: 2em;
+  }
+
+  
+  #contact>section>:nth-child(2){
+    width: 100%;
+    height: 70%;
+    top: 32%;
+    clip-path: polygon( 0% 0%,100% 0%,100% 100%, 0% 100%);
+}
+
+ #name{  margin-top: 5%; }
+
+
+
+  #contact>section>:nth-child(2)>input,#contact>section>:nth-child(2)>textarea { width: 50%; }
+}
+
+footer{
+  border-width: 0px;
+}
