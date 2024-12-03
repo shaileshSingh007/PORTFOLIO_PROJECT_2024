@@ -1,6 +1,6 @@
 @media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
 
-  #OuterContainer{   height: 90%; }
+  #OuterContainer{   height: 100%; }
  
   header{  height: 8vh; width:100vw; } 
   #menu{ width:90vw; top: 8vh; }
